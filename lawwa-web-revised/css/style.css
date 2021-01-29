@@ -158,6 +158,16 @@ ol {
 }
 
 /* buttons */
+.cust-lawwa-gradient {
+	background-image: linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1));
+	display: inline-block;
+	font-size: 16px;
+	padding: 14px 30px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: "Quantico", sans-serif;
+}
 
 .primary-btn {
 	display: inline-block;
@@ -380,7 +390,8 @@ ol {
 	bottom: 0;
 	height: 3px;
 	width: 100%;
-	background: #009603;
+	/* background: #009603; */
+	background: #050505;
 	content: "";
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -422,8 +433,9 @@ ol {
 	font-size: 15px;
 	height: 50px;
 	width: 50px;
-	color: #ffffff;
-	background: #009603;
+	/* color: #ffffff; */
+	color: #0f0f0f;
+	/* background: #009603; */
 	line-height: 50px;
 	text-align: center;
 	cursor: pointer;
