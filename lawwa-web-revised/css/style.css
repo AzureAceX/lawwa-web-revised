@@ -336,8 +336,8 @@ ol {
 
 .logo {
 	float: left;
-	padding: 30px 0;
-	margin-right: 80px;
+	padding: 15px 0;
+	/* margin-right: 80px; */
 }
 
 .logo a {
@@ -374,14 +374,15 @@ ol {
 }
 
 .nav-menu ul li a {
-	font-size: 16px;
+	font-size: 8px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #111111;
 	display: block;
 	padding: 32px 8px 30px;
 	position: relative;
-	font-family: "Quantico", sans-serif;
+	/* font-family: "Quantico", sans-serif; */
+	font-family: conthrax;
 }
 
 .nav-menu ul li a:after {
@@ -637,7 +638,8 @@ ol {
 
 .cs-item .cs-text span {
 	font-size: 17px;
-	color: #009603;
+	/* color: #009603; */
+	color: rgba(217,55,104,1);
 	display: block;
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -832,7 +834,9 @@ ol {
 -----------------------*/
 
 .footer-section {
-	background: #000606;
+	/* background: #000606; */
+	/* background-image: linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1)); */
+	background-image: url(../img/lawwa-img/wavey2.png);
 	padding-top: 70px;
 }
 
@@ -954,8 +958,8 @@ ol {
 	color: #c4c4c4;
 	text-align: center;
 	border-top: 1px solid #181d1d;
-	padding: 30px 0;
-	margin-top: 40px;
+	/* padding: 30px 0; */
+	margin-top: 5px;
 }
 
 /*---------------------
@@ -1006,7 +1010,9 @@ ol {
 	width: 100px;
 	line-height: 100px;
 	text-align: center;
-	background: #009603;
+	/* background: rgba(217, 55, 104, 1); */
+	/* background:rgba(42,56,143,1); */
+	background-image: linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1));
 	font-size: 30px;
 	color: #ffffff;
 	display: inline-block;
@@ -1101,7 +1107,8 @@ ol {
 .team-item .ti-text span {
 	display: block;
 	font-size: 15px;
-	color: #009603;
+	/* color: #009603; */
+	color: rgba(42,56,143,1);
 	margin-bottom: 20px;
 }
 
@@ -1304,7 +1311,8 @@ ol {
 }
 
 .pricing-item:hover:after {
-	background: #009603;
+	/* background: #009603; */
+	background-image: linear-gradient(60deg, rgba(217,55,104,1), rgba(42,56,143,1));
 }
 
 .pricing-item:hover .pi-price h2 {
@@ -1316,7 +1324,8 @@ ol {
 }
 
 .pricing-item:hover .pi-title {
-	background: #009603;
+	/* background: #009603; */
+	background-image: linear-gradient(60deg, rgba(217,55,104,1), rgba(42,56,143,1));
 }
 
 .pricing-item:hover .pi-title h3 {
@@ -1325,7 +1334,8 @@ ol {
 }
 
 .pricing-item:hover .pi-text .primary-btn {
-	background: #009603;
+	/* background: #009603; */
+	background-image: linear-gradient(60deg, rgba(217,55,104,1), rgba(42,56,143,1));
 	color: #ffffff;
 }
 
@@ -1746,6 +1756,10 @@ ol {
 
 .blog-sidebar .bs-item .bi-subscribe form .site-btn {
 	width: 100%;
+}
+
+site-btn{
+	background-image: linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1));
 }
 
 .blog-sidebar .bs-item .bi-insta {
@@ -2336,7 +2350,8 @@ ol {
 .contact-text .ct-item .ct-icon {
 	height: 80px;
 	width: 80px;
-	background: #009603;
+	background-image: linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1));
+	/* background: #009603; */
 	border-radius: 50%;
 	font-size: 40px;
 	line-height: 80px;
@@ -2588,12 +2603,14 @@ ol {
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #009603;
+		/* background: #009603; */
+		background-image: linear-gradient(60deg, rgba(217,55,104,1), rgba(42,56,143,1));
 		color: #fff;
 	}
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
-		background: #009603;
+		/* background: #009603; */
+		background-image: linear-gradient(60deg, rgba(217,55,104,1), rgba(42,56,143,1));
 		color: #fff;
 	}
 	.slicknav_nav .slicknav_row,
@@ -2722,12 +2739,14 @@ ol {
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #009603;
+		/* background: #009603; */
+		background-image: linear-gradient(60deg, rgba(217,55,104,1), rgba(42,56,143,1));
 		color: #fff;
 	}
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
-		background: #009603;
+		/* background: #009603; */
+		background-image: linear-gradient(60deg, rgba(217,55,104,1), rgba(42,56,143,1));
 		color: #fff;
 	}
 	.slicknav_nav .slicknav_row,
@@ -2841,12 +2860,14 @@ ol {
 	}
 	.slicknav_nav a:hover {
 		border-radius: 0;
-		background: #009603;
+		background-image: linear-gradient(60deg, rgba(217,55,104,1), rgba(42,56,143,1));
+				/* background: #009603; */
 		color: #fff;
 	}
 	.slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
-		background: #009603;
+		/* background: #009603; */
+		background-image: linear-gradient(60deg, rgba(217,55,104,1), rgba(42,56,143,1));
 		color: #fff;
 	}
 	.slicknav_nav .slicknav_row,
@@ -2907,4 +2928,54 @@ ol {
 		font-size: 36px;
 		line-height: normal;
 	}
+}
+
+
+/* Misc */
+
+.custMarginRow { 
+	margin-bottom:0px !important; 
+}
+
+#myModal{
+	/* background-color: grey; */
+}
+
+.modal-content{
+	/* background-image: linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1)); */
+	/* background-image: url('../img/lawwa-img/covid1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover; */
+	
+	/* position: absolute;
+	left: 40%;
+	top: 40%;
+	transform: translate(-50%, -50%); */
+
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+  
+	/* width: 300px; */
+	/* min-width: 50%; */
+	/* height: 450px; */
+	/* top: 80px;
+	left: 100px; */
+
+	box-shadow: 3px 3px 2px #3d3d3d;
+
+}
+
+.custom-social{
+	margin-left: 20px;
+}
+
+.custom-social a {
+	display: inline-block;
+	font-size: 30px;
+	color: #ffffff;
+	margin-right: 15px;
+	/* margin-left: 10px; */
 }
