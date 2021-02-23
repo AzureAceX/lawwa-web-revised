@@ -1,15 +1,58 @@
-/*  ---------------------------------------------------
-    Template Name: Phozogy
-    Description:  Phozogy photography HTML Template
-    Author: Colorlib
-    Author URI: https://colorlib.com
-    Version: 1.0
-    Created: Colorlib
----------------------------------------------------------  */
+// console.log("Cookies: " + navigator.cookieEnabled);
+// console.log("Browser Language: " + navigator.browserLanguage);
+// console.log("Language: " + navigator.language);
+// console.log("Platform: " + navigator.platform);
+// console.log("Connection Speed: " + navigator.connectionSpeed);
+// console.log("User Agent: " + navigator.userAgent);
+// console.log("Webdriver: " + navigator.webdriver);
+// console.log("Geolocation: " + navigator.geolocation);
+
 
 'use strict';
 
 (function ($) {
+
+    document.cookie = "lawwaAsiaVisitCookie=true";
+    document.cookie = "randomCookie=randdomomomasdoad";
+
+    function listCookies() {
+        var theCookies = document.cookie.split(';');
+        var aString = '';
+        for (var i = 1 ; i <= theCookies.length; i++) {
+            aString += i + ' ' + theCookies[i-1] + "\n";
+        }
+        return aString;
+    }
+
+    listCookies();
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i = 0; i < ca.length; i++) {
+      var c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
+  
+  function checkCookie() {
+    var user = getCookie("username");
+    if (user != "") {
+      alert("Welcome again " + user);
+    } else {
+      user = prompt("Please enter your name:", "");
+      if (user != "" && user != null) {
+        setCookie("username", user, 365);
+      }
+    }
+  }
+
 
     /*------------------
         Preloader
@@ -32,16 +75,56 @@
         $('.search-model').fadeIn(400);
     });
 
-    
     $('.search-close-switch').on('click', function () {
         $('.search-model').fadeOut(400, function () {
             $('#search-input').val('');
         });
     });
 
+    //language switch
+    $('[lang="bm"]').hide();
+    $('#switch-lang').click(function() {
+        $('[lang="bm"]').toggle();
+        $('[lang="en"]').toggle();
+        alert("Language Changed");
+    });
+
     // Onload modal
     $(window).on('load', function() {
-        $('#myModal').modal('show');
+        console.log(document.cookie + "pre modal fire");
+
+        console.log(listCookies());
+
+        document.cookie = "lawwaAsiaVisitCookie=true";
+
+
+
+
+        var visitorCounter = 0;
+        if(navigator.cookieEnabled){
+            console.log("Cookies Are Enabled");
+            
+            console.log("test: " + document.cookie);
+        
+            //read cookies, check for lawwa cookie
+            var visitCheck = getCookie("lawwaAsiaVisitCookie");
+        
+            // append if not existing
+            if(!visitCheck){
+                document.cookie = "lawwaAsiaVisitCookie=true";
+                // update tracekr
+                visitorCounter =+ 1;
+                console.log(visitorCounter);
+                $('#myModal').modal('show');
+            }else{
+                var returningUser = true;
+            }
+        
+        }
+
+        // if(!returningUser){
+        //     $('#myModal').modal('show');
+        // }
     });
 
     // Isotppe Filter

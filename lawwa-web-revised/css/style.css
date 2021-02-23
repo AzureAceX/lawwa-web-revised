@@ -35,9 +35,13 @@
 html,
 body {
 	height: 100%;
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
+	font-family: conthrax;
 	-webkit-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	/* font-smoothing: antialiased; */
+	/* background: -webkit-linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1));
+	background-repeat: repeat;
+	background-blend-mode: luminosity; */
 }
 
 h1,
@@ -49,7 +53,9 @@ h6 {
 	margin: 0;
 	color: #111111;
 	font-weight: 400;
-	font-family: "Quantico", sans-serif;
+	/* font-family: "Quantico", sans-serif; */
+	font-family: conthrax;
+
 }
 
 h1 {
@@ -78,7 +84,8 @@ h6 {
 
 p {
 	font-size: 15px;
-	font-family: "Open Sans", sans-serif;
+	/* font-family: "Open Sans", sans-serif; */
+	font-family: conthrax;
 	color: #666666;
 	font-weight: 400;
 	line-height: 26px;
@@ -118,7 +125,12 @@ ol {
 }
 
 .section-title h2 {
-	color: #111111;
+	/* color: #111111; */
+		/* color: #111111; */
+		background: -webkit-linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1));
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+
 	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 15px;
@@ -166,7 +178,8 @@ ol {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-family: "Quantico", sans-serif;
+	/* font-family: "Quantico", sans-serif; */
+	font-family: conthrax;
 }
 
 .primary-btn {
@@ -177,7 +190,9 @@ ol {
 	background: #009603;
 	text-transform: uppercase;
 	font-weight: 700;
-	font-family: "Quantico", sans-serif;
+	/* font-family: "Quantico", sans-serif; */
+	font-family: conthrax;
+
 }
 
 .site-btn {
@@ -186,7 +201,9 @@ ol {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: 2px;
-	font-family: "Quantico", sans-serif;
+	/* font-family: "Quantico", sans-serif; */
+	font-family: conthrax;
+
 	display: inline-block;
 	padding: 14px 30px 12px;
 	background: #009603;
@@ -338,6 +355,9 @@ ol {
 	float: left;
 	padding: 15px 0;
 	/* margin-right: 80px; */
+	display: inline-block;
+	/* width: 40px;
+	height: 100%; */
 }
 
 .logo a {
@@ -351,7 +371,7 @@ ol {
 .nav-menu ul li {
 	list-style: none;
 	display: inline-block;
-	margin-right: 30px;
+	margin-right: 20px;
 	position: relative;
 }
 
@@ -378,6 +398,7 @@ ol {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #111111;
+	/* color: linear-gradient(rgba(), rgba()) */
 	display: block;
 	padding: 32px 8px 30px;
 	position: relative;
@@ -392,7 +413,8 @@ ol {
 	height: 3px;
 	width: 100%;
 	/* background: #009603; */
-	background: #050505;
+	/* background: #050505; */
+	background-image: linear-gradient(60deg,rgba(217, 55, 104, 1),rgba(42, 56, 143, 1));
 	content: "";
 	opacity: 0;
 	-webkit-transition: all 0.3s;
@@ -491,6 +513,11 @@ ol {
 
 .hs-item {
 	height: 900px;
+	/* height: 100%; */
+	/* width: 1920px; */
+	/* background-size: cover;
+	background-position: center; */
+
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -498,6 +525,32 @@ ol {
 	-ms-flex-align: center;
 	align-items: center;
 	text-align: center;
+
+}
+
+.hs-item-one {
+	
+	height: 900px;
+	max-width: 1500px;
+	/* width: 1000px; */
+
+	display:block;
+	margin:auto;
+
+	/* display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex; */
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+
+	background-position: 50% 50%;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
 }
 
 .hs-item .hs-text h2 {
@@ -566,6 +619,7 @@ ol {
 .services-item img {
 	margin-bottom: 28px;
 	min-width: 100%;
+	max-height: 230px;
 }
 
 .services-item h3 {
@@ -834,10 +888,15 @@ ol {
 -----------------------*/
 
 .footer-section {
-	/* background: #000606; */
-	/* background-image: linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1)); */
-	background-image: url(../img/lawwa-img/wavey2.png);
-	padding-top: 70px;
+	background-image: url(../img/lawwa-img/Logo/Footer.png);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+	padding-top: 30px;
+
+	display:block;
+
 }
 
 .fs-about {
@@ -865,7 +924,7 @@ ol {
 }
 
 .fs-widget {
-	margin-bottom: 30px;
+	margin-bottom: 5;
 	overflow: hidden;
 }
 
@@ -874,10 +933,10 @@ ol {
 	color: #ffffff;
 	font-weight: 700;
 	text-transform: uppercase;
-	margin-bottom: 35px;
+	margin-bottom: 10px;
 }
 
-.fs-widget .fw-instagram {
+/* .fs-widget .fw-instagram {
 	margin-right: -5px;
 	overflow: hidden;
 }
@@ -886,10 +945,10 @@ ol {
 	width: calc(33.33% - 5px);
 	margin-right: 5px;
 	float: left;
-}
+} */
 
 .fs-widget ul {
-	width: 50%;
+	width: 25%;
 	float: left;
 }
 
@@ -900,18 +959,18 @@ ol {
 .fs-widget ul li a {
 	font-size: 15px;
 	color: #c4c4c4;
-	line-height: 36px;
+	line-height: 30px;
 }
 
 .fs-widget p {
 	color: #c4c4c4;
 }
 
-.fs-widget .fw-subscribe form {
+/* .fs-widget .fw-subscribe form {
 	position: relative;
-}
+} */
 
-.fs-widget .fw-subscribe form input {
+/* .fs-widget .fw-subscribe form input {
 	width: 100%;
 	height: 50px;
 	font-size: 15px;
@@ -919,8 +978,8 @@ ol {
 	padding-left: 20px;
 	border: 1px solid #009603;
 	background: transparent;
-}
-
+} */
+/* 
 .fs-widget .fw-subscribe form input::-webkit-input-placeholder {
 	color: #c4c4c4;
 }
@@ -939,9 +998,9 @@ ol {
 
 .fs-widget .fw-subscribe form input::placeholder {
 	color: #c4c4c4;
-}
+} */
 
-.fs-widget .fw-subscribe form button {
+/* .fs-widget .fw-subscribe form button {
 	font-size: 18px;
 	color: #ffffff;
 	background: #009603;
@@ -951,11 +1010,12 @@ ol {
 	position: absolute;
 	right: 0;
 	top: 0;
-}
+} */
 
 .copyright-text {
 	font-size: 15px;
-	color: #c4c4c4;
+	/* color: #c4c4c4; */
+	color: #000;
 	text-align: center;
 	border-top: 1px solid #181d1d;
 	/* padding: 30px 0; */
@@ -1246,7 +1306,9 @@ ol {
 	height: 36px;
 	line-height: 36px;
 	text-align: center;
-	background: #009603;
+	background-image: linear-gradient(60deg, rgba(217,55,104,1), rgba(42,56,143,1));
+	/* background: rgba(217,55,104,1); */
+	/* background: rgba(42,56,143,1); */
 	float: left;
 	margin-right: 20px;
 }
@@ -1819,7 +1881,9 @@ site-btn{
 	right: -18px;
 	top: 1px;
 	content: "5";
-	font-family: "ElegantIcons";
+	/* font-family: "ElegantIcons"; */
+	font-family: conthrax;
+
 }
 
 .blog-details-text .bd-title .bt-bread span {
@@ -2937,35 +3001,15 @@ site-btn{
 	margin-bottom:0px !important; 
 }
 
-#myModal{
-	/* background-color: grey; */
-}
-
 .modal-content{
-	/* background-image: linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1)); */
-	/* background-image: url('../img/lawwa-img/covid1.jpg');
-	background-repeat: no-repeat;
-	background-size: cover; */
-	
-	/* position: absolute;
-	left: 40%;
-	top: 40%;
-	transform: translate(-50%, -50%); */
 
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
-  
-	/* width: 300px; */
-	/* min-width: 50%; */
-	/* height: 450px; */
-	/* top: 80px;
-	left: 100px; */
 
 	box-shadow: 3px 3px 2px #3d3d3d;
-
 }
 
 .custom-social{
@@ -2977,5 +3021,112 @@ site-btn{
 	font-size: 30px;
 	color: #ffffff;
 	margin-right: 15px;
-	/* margin-left: 10px; */
+}
+
+.cust-banner-pic {
+height: 520px;
+
+/* background-position: center; */
+background-position: 50% 50%;
+
+width: 100vw;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+  
+display:block;
+margin:auto;
+
+}
+
+
+.ad-banner{
+		height: 200px;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		text-align: center;
+		padding: 150px 0;
+
+}
+
+
+.cust-vid-player {
+	height: 520px;
+
+	/* background-position: center; */
+	background-position: 50% 50%;
+	
+	width: 100vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	  
+	display:block;
+	margin:auto;
+}
+
+.cust-vid-player .play-btn {
+	height: 100px;
+	width: 100px;
+	line-height: 100px;
+	text-align: center;
+	background-image: linear-gradient(60deg, rgba(217,55,104,1),  rgba(42,56,143,1));
+	font-size: 30px;
+	color: #ffffff;
+	display: inline-block;
+	border-radius: 50%;
+	/* position: relative; */
+	position: relative;
+	align-self: center;
+	right: -45%;
+	top: 50%;
+	-webkit-transform: translateY(-50px);
+	-ms-transform: translateY(-50px);
+	transform: translateY(-50px);
+	z-index: 9;
+}
+
+.cust-lawwa-ad-btn  {
+	margin-top: 25px;
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid;
+	outline: none;
+	box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
+	background: rgba(217,55,104,1);
+  }
+  
+  .cust-lawwa-ad-btn::before {
+	margin-bottom: 20px;
+	font-family: conthrax;
+	opacity: 0.1;
+	pointer-events: none;
+  }
+  
+  .cust-lawwa-ad-btn:hover {
+	transition: 0.8s ease-in-out;
+	background: rgba(42,56,143,1);
+  }
+  
+  .cust-lawwa-ad-btn::after {
+	/* content: '\201D';
+	position: absolute; */
+	/* bottom: -10%;
+	right: 5%;
+	font-size: 120px; */
+	opacity: 0.2;
+	background: transparent;
+	filter: invert(1);
+	pointer-events: none;
+  }
+
+
+.cust-logo{
+	background-position: center;
+	height: 40px;
+	width: 100vw;
 }
