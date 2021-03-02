@@ -49,6 +49,7 @@ function getCookie(cname) {
         alert("Language Changed");
     });
 
+    
     // Onload modal
     $(window).on('load', function() {
         // console.log(document.cookie + "pre modal fire");
