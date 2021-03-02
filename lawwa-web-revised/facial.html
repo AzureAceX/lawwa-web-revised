@@ -41,38 +41,68 @@
     <header class="header-section">
       <div class="container-fluid">
         <div class="row">
-            <div class="col-2">
+            <div class="col-5 col-lg-4 col-sm-4 col-xl-3 col-md-4">
               <div class="logo">
                 <a href="./index.html">
                   <!-- <img src="img/lawwa-img/lawwa asia logo.png" alt="" width="60px" height="50px"/> -->
-                  <img src="img/lawwa-img/Logo/lawwa landscape.png" alt=""/>
+                  <img src="img/lawwa-img/Logo/LawwaLandscape.JPG" alt="" width="100%" height="50px"/>
                 </a>
               </div>
             </div>
-            <div class="col-2">
-                <a href="./index.html">
-                  <img src="img/lawwa-img/register.jpg" alt="" width="30px" height="30px"/>                
+            <!-- <div class="col-2">
+                <a href="https://booking.lawwa.online/lawwa/sign-up.php" target="_blank">
+                  <button class="cust-lawwa-ad-btn">
+                    <span>Register</span>
+                  </button>
                 </a>
-            </div>
-            <div class="col-8 col-lg-8">
+            </div> -->
+            <div class="col-7 col-lg-8 col-md-7 col-xl-7 col-sm-8">
             <nav class="nav-menu mobile-menu">
               <ul>
                 <li><a href="./index.html">Home</a></li>
-                <li class="active"><a href="./services.html">Services</a></li>
+                <li><a href="./services.html">Products & Services</a></li>
                 <li><a href="./membership.html">Membership</a></li>
-                <li><a href="./academy.html">Academy</a></li>
-                <li><a href="./recruitment.html">Recruitment</a></li>
-                <li><a href="./gallery.html">Gallery</a></li>
-                <li><a href="./events.html">News</a></li>
-                <li><a href="./profile.html">Profile</a></li>
-                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a lang="en" href="./academy.html">Academy</a><a lang="bm" href="./academy.html">Akademy</a>
+                    <ul class="dropdown">
+                        <li><a lang="en" href="./academy.html">Academy</a><a lang="bm" href="./academy.html">Akademy</a></li>
+                        <li><a lang="en" href="./recruitment.html">Recruitment</a><a lang="bm" href="./recruitment.html">rekruit</a></li>
+                        <li><a href="./courses.html">Courses</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="./profile.html">Profile</a>
+                    <ul class="dropdown">
+                        <li><a href="./profile.html">Profile</a></li>
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </li>
+                <li><a href="./gallery.html">Media</a>
+                    <ul class="dropdown">
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./events.html">Newsletter</a></li>
+                        <li><a href="./blog-details.html">Tips</a></li>
+                    </ul>
+                </li>
+                <!-- <li></li> -->
               </ul>
             </nav>
-            <div id="mobile-menu-wrap"></div>
+            <div id="mobile-menu-wrap">
+            </div>
+            <div style="float: right; margin-top: 25px; max-height: 25px; max-width: 25px;">
+              <small>
+                <img id="switch-lang" src="img/lawwa-img/lang-icon.jpg">
+              </small>
+            </div>
           </div>
+          <div class="register-div col-xl-2 col-lg-2 col-md-2 d-none d-xs-none d-sm-none d-md-none d-lg-inline ">
+            <a href="https://booking.lawwa.online/lawwa/sign-up.php" target="_blank">
+              <button class="cust-lawwa-ad-btn btn-block">
+                <span>Register</span>
+              </button>
+            </a>
+        </div>
         </div>
       </div>
-    </header>
+    </header> 
     <!-- Header End -->
 
       <br>
@@ -295,6 +325,7 @@
     <script src="js/masonry.pkgd.min.js"></script>
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/lawwa.js"></script>
     <script src="js/main.js"></script>
 </body>
 
