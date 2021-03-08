@@ -2388,6 +2388,10 @@ site-btn{
 	height: 510px;
 }
 
+/* .gallery-filter .gf-item.medium-large-wide {
+	height: 510px;
+} */
+
 .gallery-filter .gf-item:after {
 	position: absolute;
 	left: 0;
