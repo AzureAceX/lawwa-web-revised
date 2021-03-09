@@ -3215,11 +3215,14 @@ margin:auto;
 }
 
 .visit-counter{
-	display: inline-block;
+	font-family: conthrax;
+	/* display: inline-block; */
 	padding: 6px 6px 4px;
 	border-radius: 3px;
-	background: #b09dc4;
-	margin-right: -2px;
+	/* background: #8c8b8d; */
+	background: rgba(217,55,104,1);
+	/* background: transparent; */
+	/* margin-right: -2px; */
 }
 
 
