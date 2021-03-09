@@ -3186,7 +3186,10 @@ margin:auto;
 }
 
 .register-div{
-	background-image: url(../img/lawwa-img/badge-bg.png);
+	/* background-image: url(../img/lawwa-img/badge-bg.png); */
+	/* background: -webkit-linear-gradient(25deg, rgba(217,55,104,1),  rgba(42,56,143,1)); */
+	/* background:rgba(217,55,104,1); */
+	/* background: rgba(42,56,143,1); */
 	background-position: center;
 	background-size: cover;
 }
