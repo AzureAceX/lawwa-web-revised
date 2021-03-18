@@ -43,7 +43,7 @@ function getCookie(cname) {
 
     //language switch
     $('[lang="bm"]').hide();
-    $('#switch-lang').click(function() {
+    $('.switch-lang').click(function() {
         $('[lang="bm"]').toggle();
         $('[lang="en"]').toggle();
         alert("Language Changed");
