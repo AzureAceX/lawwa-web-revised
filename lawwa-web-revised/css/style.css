@@ -374,7 +374,7 @@ ol {
 }
 
 .logo {
-	float: left;
+	/* float: left; */
 	padding: 15px 0;
 	/* margin-right: 80px; */
 	display: inline-block;
