@@ -2463,7 +2463,7 @@ site-btn{
 	line-height: 80px;
 	text-align: center;
 	color: #ffffff;
-	float: left;
+	float: right;
 	margin-right: 30px;
 }
 
@@ -3342,7 +3342,7 @@ margin:auto;
 	line-height: 80px;
 	text-align: center;
 	color: #ffffff;
-	float: left;
+	float: inline-end;
 	margin-right: 30px;
 }
 
