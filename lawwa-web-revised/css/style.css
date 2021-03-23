@@ -3098,10 +3098,10 @@ margin:auto;
 
 
 .cust-vid-player {
-	height: 520px;
+	height: 800px;
 
 	/* background-position: center; */
-	background-position: 50% 50%;
+	background-position: 50% 20%;
 	
 	width: 100vw;
 	background-repeat: no-repeat;
