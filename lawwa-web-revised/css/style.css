@@ -374,10 +374,10 @@ ol {
 }
 
 .logo {
-	/* float: left; */
+	float: left;
 	padding: 15px 0;
 	/* margin-right: 80px; */
-	display: inline-block;
+	/* display: inline-block; */
 	/* width: 40px;
 	height: 100%; */
 }
@@ -910,7 +910,7 @@ ol {
 -----------------------*/
 
 .footer-section {
-	background-image: url(../img/lawwa-img/Logo/Footer.png);
+	background-image: url(../img/lawwa-img/Footer2.png);
 
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1498,14 +1498,15 @@ ol {
 -----------------------*/
 
 .portfolio-hero-section {
-	height: 900px;
+	height: 550px;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex;
+	display: inline-flexbox;
 	-webkit-box-align: center;
 	-ms-flex-align: center;
 	align-items: center;
 	text-align: center;
+	
 }
 
 .ph-text {
@@ -2463,7 +2464,7 @@ site-btn{
 	line-height: 80px;
 	text-align: center;
 	color: #ffffff;
-	float: right;
+	float: left;
 	margin-right: 30px;
 }
 
@@ -3229,7 +3230,7 @@ margin:auto;
 	background-position: center center;
 	background-attachment: fixed;
 
-	background-image: url('../img/lawwa-img/img-selection/contactus.jpeg');
+	background-image: url('../img/lawwa-img/Contact/contactus.jpeg');
 }
 
 .contact-banner{
@@ -3342,7 +3343,7 @@ margin:auto;
 	line-height: 80px;
 	text-align: center;
 	color: #ffffff;
-	float: inline-end;
+	float: left;
 	margin-right: 30px;
 }
 
