@@ -2878,6 +2878,7 @@ site-btn{
 	}
 	.portfolio-hero-section {
 		height: auto;
+		width: max-content;
 		padding: 150px 0;
 	}
 	.portfolio-filter .pf-item {
@@ -3212,9 +3213,9 @@ margin:auto;
 	height: 100%;
 	max-height: 550px;
 	position: inherit;
-	background-size: cover;
+	background-size: auto;
 	background-repeat: no-repeat;
-	background-position: center center;
+	background-position: center center ;
 	background-attachment: fixed;
 
 	background-image: url('../img/lawwa-img/services/servicesbanner.jpg');
@@ -3260,7 +3261,7 @@ margin:auto;
 	background-size: cover;
 	/* background-image: url(img/lawwa-img/plainbanner.jpeg); */
 	display: inline-block;
-	padding: 60px 75px 65px;
+	padding: 60px 65px 60px;
 	text-align: center;
 	font-weight: 700;
 	text-transform: uppercase;
