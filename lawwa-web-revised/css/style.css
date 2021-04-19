@@ -1512,6 +1512,7 @@ ol {
 .ph-text {
 	background: rgba(0, 0, 0, 0.7);
 	display: inline-block;
+	margin-top: 180px;
 	padding: 60px 75px 65px;
 	text-align: center;
 }
@@ -2877,9 +2878,9 @@ site-btn{
 		padding: 150px 0 200px;
 	}
 	.portfolio-hero-section {
-		height: auto;
+		height: max-content;
 		width: max-content;
-		padding: 150px 0;
+		padding: 0px 0;
 	}
 	.portfolio-filter .pf-item {
 		width: calc(50% - 20px);
